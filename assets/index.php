@@ -29,9 +29,21 @@
                  <h2>Medicenter is a resposive template perfect for all screen sizes</h2>
              </div>
              <div class="banner-options">
-                 <div class="banner1"><div class="banner-title">Emergency Case</div></div>
-                 <div class="banner2"><div class="banner-title">Doctors Timetable</div></div>
-                 <div class="banner3"><div class="banner-title">Opening Hours</div></div>
+                 <div class="banner1">
+                     <div class="banner-title">Emergency Case</div>
+                     <div class="banner-desc">Alguma coisa</div>
+                     <a href="" class="banner-button">Read me</a>
+                 </div>
+                 <div class="banner2">
+                     <div class="banner-title">Doctors Timetable</div>
+                     <div class="banner-desc">Alguma coisa</div>
+                     <a href="" class="banner-button">Read me</a>
+                 </div>
+                 <div class="banner3">
+                     <div class="banner-title">Opening Hours</div>
+                     <div class="banner-desc">Alguma coisa</div>
+                     <a href="" class="banner-button">Read me</a>
+                 </div>
              </div>
          </div>
      </section>

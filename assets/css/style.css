@@ -94,9 +94,21 @@ nav a:hover{
     background-color: #39aae1;
 }
 .banner-title{
-    
+    font-size: 21px;
 }
-
+.banner-desc{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.banner-button {
+    border: 1px solid white;
+    padding: 15px;
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
 
 
 
