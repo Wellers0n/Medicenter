@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+.container{
+    display: flex;
+    width: 990px;
+    justify-content: space-between;
+}
+.logomarca{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    
+}
+nav ul,
+nav li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    display: flex;
+}
+nav a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #727272;
+}
+nav .active a,
+nav a:hover{
+    background-color: #39aae1;
+    color: white;    
+}
+#banner{
+    background-image: url('../imgs/img1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 670px;
+    display: flex;
+    justify-content: center;
+}
+.coluna{
+    flex-direction: column;
+}
+.banner-text{
+    flex: 1;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner-text h1{
+    color: white;
+    font-size: 70px;
+    text-shadow: 1px 1px 0 black;
+    max-width: 350px;
+}
+.banner-text h2{
+    color: white;
+    font-size: 21px;
+    text-shadow: 1px 1px 0 black;
+    max-width: 350px;
+    margin-top: 30px;
+}
+.banner-options{
+    height: 210px;
+    display: flex;
+}
+.banner1,
+.banner2,
+.banner3{
+    flex: 1;
+    color: white;
+    padding: 20px;
+}
+.banner1{
+    background-color: #39aae1;
+}
+.banner2{
+    background-color: #0079c7;
+}
+.banner3{
+    background-color: #39aae1;
+}
+.banner-title{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
